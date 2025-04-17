@@ -36,5 +36,5 @@ SHOPIFY_LOCATION_ID=gid://shopify/Location/999
 
 # optional: Send email via https://resend.com
 RESEND_API_KEY=
-RESEND_TO=
+RESEND_TO=name@example.com
 `
