@@ -1,0 +1,38 @@
+{
+  "name": "markustripp-shopify-bulk-import",
+  "version": "1.0.0",
+  "description": "Shopify Bulk Import CLI",
+  "author": "Markus Tripp <markus@mext.at>",
+  "type": "module",
+  "bin": "./dist/bin.js",
+  "scripts": {
+    "build": "bunchee",
+    "lint": "tsc --noEmit",
+    "dev": "bunchee --watch"
+  },
+  "dependencies": {
+    "@react-email/components": "0.0.36",
+    "@react-email/tailwind": "^1.0",
+    "commander": "^13.1",
+    "dotenv": "^16.5",
+    "nodefetchline": "^1.0",
+    "ora": "^8.2",
+    "react": "^19",
+    "react-dom": "^19",
+    "resend": "^4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "bunchee": "^6.5",
+    "react-email": "4.0",
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
+}

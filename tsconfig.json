@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "target": "es2022",
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "moduleDetection": "force",
+      "isolatedModules": true,
+      "verbatimModuleSyntax": true,
+  
+      "strict": true,
+      "noUncheckedIndexedAccess": true,
+      "noImplicitOverride": true,
+  
+      "module": "ESNext",
+      "moduleResolution": "Bundler",
+      
+      "lib": ["dom", "dom.iterable", "es2022"],
+      "jsx": "preserve",
+      "noEmit": true
+    },
+    "include": ["src/**/*", "*.ts"]
+  }
