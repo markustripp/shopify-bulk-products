@@ -1,6 +1,6 @@
 # Shopify Bulk Import
 
-Demo implementation of a TypeScript CLI that uses Shopify bulk fetch and import via GraphQL. For a detailed documentation find the related article on [Medium](https://medium.com).
+Demo implementation of a TypeScript CLI that uses Shopify bulk fetch and import via GraphQL. For a detailed documentation find the related article on [Medium](https://markustripp.medium.com/100x-faster-shopify-product-import-f9deb16b160c).
 
 ## Quick Start
 
